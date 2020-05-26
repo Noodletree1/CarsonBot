@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 const bot = new Discord.Client();
 
-const token = 'NzE0ODIyMDQxMjk0OTk1NDU5.Xs0UNg.HNgBciAS3rMng9fTPWHvkRCyAYg';
+const token = 'NzE0ODIyMDQxMjk0OTk1NDU5.Xs0UNg.HNgBciAS3rMng9fTPWHvkRCyAYg'; //whatever the current token may be.
 
 bot.on('message', msg=>{
 	if(msg.content == "first rodeo"){
