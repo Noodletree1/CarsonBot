@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client(); // bot object
-const token = 'NzE0ODIyMDQxMjk0OTk1NDU5.Xs0hjQ.LEd5SSx9ZuAOGHjZcjZ68Xw4IHk'; // DO NOT include token, bot will be invalidated
+const token = ' '; // DO NOT include token, bot will be invalidated
 
 const PREFIX = '!'; // command prefix
 
