@@ -43,6 +43,8 @@ client.on("message", async message => {
 	}	else if (message.content.startsWith(`${prefix}yeet`)) {
 		client.commands.get('yeet').execute(message);
 		return;
+	} else if (message.content.startsWith(`${prefix}purge`)) {
+		client.commands.get('purge').execute(message);
 	}	else {
     message.channel.send("You need to enter a valid command!");
   }
